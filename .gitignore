@@ -1,0 +1,11 @@
+/.venv/
+/output_motion/
+/g1_xmls/
+/LAFAN1_Retargeting_Dataset/
+/output_motion_chunks/
+__pycache__/
+stubs
+.vscode/
+.mypy_cache/
+*.pyc
+*.egg-info/

@@ -1,0 +1,23 @@
+[project]
+name = "lafan-process"
+version = "0.1.0"
+description = "MuJoCo visualizer and motion exporter for LAFAN1 retargeted G1 motions."
+requires-python = ">=3.10"
+dependencies = [
+    "mujoco>=2.3.7",
+    "mypy>=1.19.1",
+    "numpy>=1.23",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+visualize = "visualize_mujoco:main"
+export = "export_motion_mujoco:main"
+split = "split_motion_chunks:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["visualize_mujoco", "export_motion_mujoco", "split_motion_chunks"]
