@@ -12,6 +12,7 @@ git clone https://huggingface.co/elijahgalahad/g1_xmls
 
 ## 2. Usage of Scripts
 
+### 2.1 Visualize one Motion
 
 ```bash
 uv run visualize --csv LAFAN1_Retargeting_Dataset/g1/dance1_subject2.csv
@@ -23,7 +24,7 @@ Default MJCF path is `g1_xmls/g1.xml`. Optional: override the MJCF path.
 G1_MJCF_PATH=/path/to/g1.xml uv run visualize --csv LAFAN1_Retargeting_Dataset/g1/dance1_subject2.csv
 ```
 
-### 2.2 Export Motion to HDMI Format
+### 2.2 Export Motions to HDMI Format
 
 ```bash
 uv run export --csv-folder LAFAN1_Retargeting_Dataset/g1 --out-dir output_motion
