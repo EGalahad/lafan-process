@@ -10,6 +10,8 @@ git clone https://huggingface.co/datasets/lvhaidong/LAFAN1_Retargeting_Dataset
 git clone https://huggingface.co/elijahgalahad/g1_xmls
 ```
 
+MJCF models are copied from [mjlab](https://github.com/mujocolab/mjlab/tree/main/src/mjlab/asset_zoo/robots/unitree_g1/xmls).
+
 ## 2. Usage of Scripts
 
 ### 2.1 Visualize one Motion
